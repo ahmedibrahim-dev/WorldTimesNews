@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="card col-sm-4" style="width: 18rem;" *ngFor="let news of globalNews">
+            <div class="card-body">
+              <h5 class="card-title">{{news.name}}</h5>
+              <p class="card-text">{{news.description}}</p>
+              <hr>
+              <p>{{news.category}}</p>
+            </div>
+          </div>
+    </div>
+</div>
